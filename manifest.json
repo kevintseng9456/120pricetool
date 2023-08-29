@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "點餐預算工具",
+    "version": "1.0",
+    "description": "在設定的預算下，列出所有的組合",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": ["*://*/*"],   
+    "permissions" : [
+        "tabs", 
+        "activeTab", 
+        "notifications",
+        "scripting" 
+    ]
+}
+    
